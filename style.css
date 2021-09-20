@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+    /* position: sticky; */
+    font-family: 'Source Sans Pro', sans-serif; 
+    background-color: #E5E5E5;                   
+}
+.roof-obj {
+    display: inline-block;
+}
+#roof-left {
+    width: 247px;
+    height: 35px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    color: #3F3F3F;
+    line-height: 35px;
+    text-align: left;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-right: 1008px;
+}
+#roof-right {
+    margin-top: 31px;
+    height: 36px;
+    margin-right: 31.51px;
+} 
+select {
+    width: 121.49px; /* Ширина списка в пикселях, не забыть поправить */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    background-color: #FFFEFB;
+   }
+option {
+    font-size: 12px;
+    line-height: 15px;
+    color: #B4B4B4;
+    font-style: normal;
+    font-weight: normal;  
+}
+
+.body-obj {
+    display: inline-block;
+}
+/* #lp {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0; 
+}                 Не работает из-за того, что нет дочернего элемента, придумать решение*/
+.left-part {
+    position: sticky;
+    top: 0px;
+    margin-left: 32px;
+    margin-right: 16px;
+    width: 332px;
+    height: 455px;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04), 0px 6px 10px rgba(0.08, 0, 0, 0.08);
+    border-radius: 4px;
+}
+.p-1 {                  
+    margin-top: 24px;
+    vertical-align: top;
+}
+.p-2 {
+    margin-top: 16px;
+}
+.p-3 {
+    margin-top: 16px;
+}
+.p-4 {
+    margin-top: 16px;
+}
+.p-5 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    letter-spacing: -0.02em;
+    color: #49485E;
+    margin-left: 24px;
+}
+.button-2 {
+    width: 284px;
+    height: 36px;
+    margin-left: 24px;
+    margin-top: 24px;
+    /* margin-bottom: 24px; - разобраться с отступом  */
+}
+.button-2-text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    line-height: 15px;
+    color: #B4B4B4;
+}
+.left-part input[type="text"] {
+    padding-left: 16px;
+    width: 268px;
+    padding-bottom: 11px;
+}
+.left-part input[type="text-2"] {
+    padding-left: 16px;
+    width: 268px;
+    padding-bottom: 83px;
+}
+.inp-obj {
+    width: 284px;
+    margin-left: 24px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #B4B4B4;
+}
+.inp-obj1-1 {
+    height: 25px; 
+    margin-top: 4px;
+}
+.inp-obj1-2 {
+    height: 25px;
+    margin-top: 4px;
+}
+.inp-obj1-3 {
+    height: 25px;
+    margin-top: 4px;
+}
+.inp-obj1-4 {
+    height: 25px;
+    margin-top: 4px;
+}
+
+.right-part {
+    /* border: 1px solid; */
+    width: 1028px;          /*Не понимаю, почему 1028 не подходит, ведь в сумме общая ширина 1440 => поменял вн. отступы (по -4 px)*/
+    height: 1301px;
+    position: absolute;
+    margin-right: 32px;
+}
+[class^='row'] {
+    cursor: pointer;
+}
+.nameofproduct {
+    width: 201px;
+    height: 25px;
+    left: 744px;
+    top: 299px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #3F3F3F;
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-right: 115px;
+    margin-bottom: 16px;
+}
+.descriptionofproduct {
+    width: 300px;
+    height: 80px;
+    left: 396px;
+    top: 340px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #3F3F3F;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.pricetext {
+    width: 117px;
+    height: 30px;
+    left: 396px;
+    top: 452px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #3F3F3F;
+    margin-left: 16px;
+    margin-right: 199px;
+    margin-bottom: 24px;
+}
+.block-1 {
+    display: inline-block;
+    width: 332px;
+    height: 423px;
+    border-radius: 4px;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04), 0px 6px 10px rgba(0, 0, 0, 0.02);
+    /* border: 1px solid; */
+}
+.row-1-1 {
+    margin-right: 12px;
+}
+.row-1-2 {
+    margin-right: 12px;
+}
+.block-2 {
+    display: inline-block;
+    width: 332px;
+    height: 423px;
+    margin-top: 16px;
+    border-radius: 4px;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04), 0px 6px 10px rgba(0, 0, 0, 0.02);
+    /* border: 1px solid; */
+}
+.row-1-4 {
+    margin-right: 12px;
+}
+.row-1-5 {
+    margin-right: 12px;
+}
+.block-3 {
+    display: inline-block;
+    width: 332px;
+    height: 423px;
+    margin-top: 16px;
+    border-radius: 4px;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04), 0px 6px 10px rgba(0, 0, 0, 0.02);
+    /* border: 1px solid; */
+}
+.row-1-7 {
+    margin-right: 12px;
+}
+.row-1-8 {
+    margin-right: 12px;
+}
